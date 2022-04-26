@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesignNice</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/lightGallery.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+  <!-- Start Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-body shadow-sm py-4 sticky-top">
+    <div class="container">
+      <a class="navbar-brand fs-2 text-primary" href="#">Ag Coding</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bi bi-text-right fs-2"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fs-5 text-center">
+          <li class="nav-item">
+            <a class="nav-link active me-3" aria-current="page" href="#header">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item me-3 dropdown">
+            <a href="#" class="nav-link" data-bs-toggle="dropdown">Drobdown</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Start Header -->
+  <header id="header">
+    <div class="container h-100 d-flex align-items-center">
+      <div class="position-relative">
+        <h3 class="display-5" data-aos="fade-right" data-aos-duration="2000">
+          Welcome To
+          <span class="text-primary">Ag Coding</span>
+        </h3>
+        <h6 class="fs-3 text-muted" data-aos="fade-left" data-aos-duration="2000">
+          we are team of talented designers making websites with Bootstrap
+        </h6>
+        <div class="btn-group mt-3" data-aos="fade-up" data-aos-duration="2000">
+          <button class="btn btn-primary px-4 py-2 me-3">Get Started</button>
+          <button class="btn btn-outline-primary px-4 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i
+              class="bi bi-play-circle me-2"></i> Watch Video</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+
+  <!-- Start About -->
+  <section id="about" class="py-5 bg-section">
+    <div class="container">
+      <div class="text-center">
+        <span class="title-before px-3 rounded-pill text-uppercase text-primary d-inline-block mb-3">about</span>
+        <h3 class="display-6">
+          Find out more
+          <span class="text-primary">About Us</span>
+        </h3>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque fugit commodi asperiores eos iste
+          ipsam!
+        </p>
+      </div>
+      <div class="row mt-4">
+        <div class="col-lg-6 mb-3 mb-lg-0" data-aos="fade-right" data-aos-duration="2000">
+          <img src="./images/about.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+          <p class="text-muted fst-italic mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos excepturi libero possimus maiores corporis unde error non doloremque!
+          </p>
+          <ul class="list-unstyled">
+            <li class="d-flex mb-4">
+              <div class="icon-container bg-body shadow rounded-circle d-flex justify-content-center align-items-center me-3 flex-shrink-0">
+                <i class="bi bi-book fs-3 text-primary"></i>
+              </div>
+              <div>
+                <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                <p class="text-muted">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero quos non dignissimos nulla officiis nisi quae velit.
+                </p>
+              </div>
+            </li>
+            <li class="d-flex">
+              <div class="icon-container bg-body shadow rounded-circle d-flex justify-content-center align-items-center me-3 flex-shrink-0">
+                <i class="bi bi-book fs-3 text-primary"></i>
+              </div>
+              <div>
+                <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                <p class="text-muted">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero quos non dignissimos nulla officiis nisi quae velit.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Start Progress -->
+  <section class="progress-div py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <b>Html</b>
+            <b class="progress-value"><span>0</span>%</b>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <b>CSS</b>
+            <b class="progress-value"><span>0</span>%</b>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <b>JS</b>
+            <b class="progress-value"><span>0</span>%</b>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <b>Bootstrap</b>
+            <b class="progress-value"><span>0</span>%</b>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <b>Wordpress</b>
+            <b class="progress-value"><span>0</span>%</b>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="d-flex justify-content-between mb-2">
+            <b>Node Js</b>
+            <b class="progress-value"><span>0</span>%</b>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Progress -->
+
+  <!-- Start counter -->
+  <section class="counter-div py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+          <div class="bg-section p-5 text-center position-relative">
+            <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center position-absolute top-0 start-50 translate-middle">
+              <i class="bi bi-emoji-smile fs-3 text-light"></i>
+            </div>
+            <h3 data-counter="110">0</h3>
+            <h4>HappyClients</h4>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+          <div class="bg-section p-5 text-center position-relative">
+            <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center position-absolute top-0 start-50 translate-middle">
+              <i class="bi bi-emoji-smile fs-3 text-light"></i>
+            </div>
+            <h3 data-counter="120">0</h3>
+            <h4>HappyClients</h4>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+          <div class="bg-section p-5 text-center position-relative">
+            <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center position-absolute top-0 start-50 translate-middle">
+              <i class="bi bi-emoji-smile fs-3 text-light"></i>
+            </div>
+            <h3 data-counter="24">0</h3>
+            <h4>HappyClients</h4>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+          <div class="bg-section p-5 text-center position-relative">
+            <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center position-absolute top-0 start-50 translate-middle">
+              <i class="bi bi-emoji-smile fs-3 text-light"></i>
+            </div>
+            <h3 data-counter="15">0</h3>
+            <h4>HappyClients</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End counter -->
+
+  <!-- Start Clients -->
+  <section class="clients py-5 bg-section" data-aos = "fade-up" data-aos-duration = "1500">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-6 p-5">
+          <img src="./images/clients/client-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 p-5">
+          <img src="./images/clients/client-2.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 p-5">
+          <img src="./images/clients/client-3.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 p-5">
+          <img src="./images/clients/client-4.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 p-5">
+          <img src="./images/clients/client-5.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 p-5">
+          <img src="./images/clients/client-6.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Clients -->
+
+  <!-- Start Services -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="text-center">
+        <span class="title-before px-3 rounded-pill text-uppercase text-primary d-inline-block mb-3">Services</span>
+        <h3 class="display-6">
+          Find out more
+          <span class="text-primary">Services</span>
+        </h3>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque fugit commodi asperiores eos iste
+          ipsam!
+        </p>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="icon-box p-5 shadow position-relative">
+            <div class="card-overlay position-absolute bg-primary top-100"></div>
+            <i class="bi bi-bar-chart-steps fs-1 text-primary"></i>
+            <h4 class="fw-bold my-3">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, quos optio?
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="icon-box p-5 shadow position-relative">
+            <div class="card-overlay position-absolute bg-primary top-100"></div>
+            <i class="bi bi-bar-chart-steps fs-1 text-primary"></i>
+            <h4 class="fw-bold my-3">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, quos optio?
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <div class="icon-box p-5 shadow position-relative">
+            <div class="card-overlay position-absolute bg-primary top-100"></div>
+            <i class="bi bi-bar-chart-steps fs-1 text-primary"></i>
+            <h4 class="fw-bold my-3">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, quos optio?
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+          <div class="icon-box p-5 shadow position-relative">
+            <div class="card-overlay position-absolute bg-primary top-100"></div>
+            <i class="bi bi-bar-chart-steps fs-1 text-primary"></i>
+            <h4 class="fw-bold my-3">Lorem, ipsum dolor.</h4>
+            <p class="text-muted lh-lg">
+              Lorem, ipsum dolor.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, quos optio?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Services -->
+
+  <!-- Start Slider -->
+  <section class="slider-div position-relative pt-5 pb-2">
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <img src="./images/testimonials/testimonials-1.jpg" class="d-block mx-auto rounded-circle" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="./images/testimonials/testimonials-2.jpg" class="d-block mx-auto rounded-circle" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="./images/testimonials/testimonials-3.jpg" class="d-block mx-auto rounded-circle" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- End Slider -->
+
+  <!-- Start Portfolio -->
+  <section id="portfolio" class="portfolio py-5">
+    <div class="container">
+      <div class="text-center">
+        <span class="title-before px-3 rounded-pill text-uppercase text-primary d-inline-block mb-3">Portfolio</span>
+        <h3 class="display-6">
+          Find out more
+          <span class="text-primary">Portfolio</span>
+        </h3>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque fugit commodi asperiores eos iste
+          ipsam!
+        </p>
+      </div>
+      <ul class="list-group list-group-horizontal justify-content-center">
+        <li class="list-group-item active" data-filter="all">all</li>
+        <li class="list-group-item" data-filter="app">app</li>
+        <li class="list-group-item" data-filter="photo">photo</li>
+        <li class="list-group-item" data-filter="web">web</li>
+      </ul>
+      <div class="row mt-4 filtered-items" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500" id="lightgallery">
+        <a href="./images/portfolio/portfolio-1.jpg" class="col-md-6 col-lg-4 mb-3 app all">
+          <img src="./images/portfolio/portfolio-1.jpg" class="w-100 h-100 p-2 shadow" alt="">
+        </a>
+        <a href="./images/portfolio/portfolio-2.jpg" class="col-md-6 col-lg-4 mb-3 app all">
+          <img src="./images/portfolio/portfolio-2.jpg" class="w-100 h-100 p-2 shadow" alt="">
+        </a>
+        <a href="./images/portfolio/portfolio-3.jpg" class="col-md-6 col-lg-4 mb-3 photo all">
+          <img src="./images/portfolio/portfolio-3.jpg" class="w-100 h-100 p-2 shadow" alt="">
+        </a>
+        <a href="./images/portfolio/portfolio-4.jpg" class="col-md-6 col-lg-4 mb-3 photo all">
+          <img src="./images/portfolio/portfolio-4.jpg" class="w-100 h-100 p-2 shadow" alt="">
+        </a>
+        <a href="./images/portfolio/portfolio-5.jpg" class="col-md-6 col-lg-4 mb-3 web all">
+          <img src="./images/portfolio/portfolio-5.jpg" class="w-100 h-100 p-2 shadow" alt="">
+        </a>
+        <a href="./images/portfolio/portfolio-6.jpg" class="col-md-6 col-lg-4 mb-3 web all">
+          <img src="./images/portfolio/portfolio-6.jpg" class="w-100 h-100 p-2 shadow" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
+
+  <!-- Start contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="text-center">
+        <span class="title-before px-3 rounded-pill text-uppercase text-primary d-inline-block mb-3">Contact Us</span>
+        <h3 class="display-6">
+          Find out more
+          <span class="text-primary">Contact Us</span>
+        </h3>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque fugit commodi asperiores eos iste
+          ipsam!
+        </p>
+      </div>
+      
+      <div class="row mt-4" data-aos="zoom-out-left" data-aos-duration="1000">
+        <div class="col-lg-6 mb-3">
+          <div class="p-2 shadow text-center text-muted">
+            <i class="bi bi-geo-alt-fill fs-2 text-primary rounded-circle d-inline-block"></i>
+            <h5 class="my-3">our Address</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="p-2 shadow text-muted text-center">
+            <i class="bi bi-geo-alt-fill fs-2 text-primary rounded-circle d-inline-block"></i>
+            <h5 class="my-3">our Address</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="p-2 shadow text-muted text-center">
+            <i class="bi bi-geo-alt-fill fs-2 text-primary rounded-circle d-inline-block"></i>
+            <h5 class="my-3">our Address</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- map and form -->
+      <div class="row mt-4" data-aos="zoom-out-right" data-aos-duration="1000" data-aos-delay="500">
+        <div class="col-md-6 mb-3">
+          <iframe class="border-0 p-2 shadow" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7300238.1786410175!2d30.254350000000002!3d26.69425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1648477080103!5m2!1sar!2seg" width="100%" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-6">
+          <form action="" class="p-4 shadow">
+            <div class="row">
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+            </div>
+            <input type="text" class="form-control my-3" placeholder="Subject">
+            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            <button class="btn btn-primary mt-3">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start contact -->
+
+  <!-- Start Footer --> 
+  <section id="footer" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+          <div class="text-muted">
+            <h4>Ag Coding</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit facilis harum minima illo molestiae!
+            </p>
+            <p><b>Email :</b> Info@example.com</p>
+            <p><b>Phone :</b> 01118271385</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+          <div class="text-muted">
+            <h6>Useful Links</h6>
+            <ul class="list-unstyled footer-links ps-3">
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+          <div class="text-muted">
+            <h6>Useful Links</h6>
+            <ul class="list-unstyled footer-links ps-3">
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+              <li>Home</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3 d-lg-flex justify-content-center">
+          <div class="text-muted">
+            <h6>Our Social Networks</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam ipsum sint officia nihil quos assumenda.
+            </p>
+            <div class="social">
+              <a class="py-1 px-2 bg-primary text-light rounded me-2" href=""><i class="bi bi-facebook"></i></a>
+              <a class="py-1 px-2 bg-primary text-light rounded me-2" href=""><i class="bi bi-twitter"></i></a>
+              <a class="py-1 px-2 bg-primary text-light rounded me-2" href=""><i class="bi bi-instagram"></i></a>
+              <a class="py-1 px-2 bg-primary text-light rounded me-2" href=""><i class="bi bi-quora"></i></a>
+              <a class="py-1 px-2 bg-primary text-light rounded" href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Footer --> 
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Api Good</h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <object class="w-100" data="https://www.youtube.com/embed/ZKr4eKto6V0"></object>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/scrollOut.js"></script>
+  <script src="js/lightGallery.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

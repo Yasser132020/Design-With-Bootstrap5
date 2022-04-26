@@ -1,0 +1,223 @@
+
+
+/* utility */
+.bg-section
+{
+    background-color: #f6f9fe;
+}
+.title-before
+{
+    background-color: #e7f1fd;
+}
+/* utility */
+:root
+{
+    --main-color : #106eea;
+}
+body
+{
+    font-family: cursive;
+    position: relative;
+}
+
+section
+{
+    overflow-x: hidden;
+}
+/* Start Navbar */
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: var(--main-color);
+}
+.navbar-light .navbar-nav .nav-link
+{
+    position: relative;
+    transition: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--main-color);
+    transition: inherit;
+}
+.navbar-light .navbar-nav .nav-link:hover::after,
+.navbar-light .navbar-nav .nav-link.active::after
+{
+    width: 100%;
+}
+.navbar-toggler:focus
+{
+    box-shadow: none;
+}
+/* Start Navbar */
+
+/* Start Header */
+#header
+{
+    height: 75vh;
+    background: url(../images/hero-bg.jpg) center center/cover;
+    position: relative;
+}
+#header::before
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* End Header */
+
+/* Start About */
+.icon-container
+{
+    width: 70px;
+    height: 70px;
+}
+/* End About */
+
+
+/* Start Progress  */
+.progress-bar
+{
+    transition: 0.3s;
+}
+/* End Progress  */
+
+/* counter */
+.counter-div .icon
+{
+    width: 60px;
+    height: 60px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+/* counter */
+
+/* Start services */
+.icon-box .card-overlay
+{
+    inset: 0;
+    transition: 0.5s;
+}
+.icon-box  > *
+{
+    position: relative;
+    transition: 0.5s;
+}
+.icon-box:hover > *
+{
+    color: #fff !important;
+}
+.icon-box:hover .card-overlay
+{
+    top: 0 !important;
+}
+/* end services */
+
+/* Start slider */
+.slider-div
+{
+    background: url(../images/testimonials-bg.jpg) center center/cover;
+}
+#carouselExampleCaptions
+{
+    height: 350px;
+}
+.carousel-item img
+{
+    width: 150px;
+    height: 150px;
+}
+.slider-div::before
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Start slider */
+
+/* filtered-items */
+.filtered-items > a
+{
+    height: 350px;
+}
+.filtered-items > a img
+{
+    object-fit: contain;
+}
+.filtered-items > a.active
+{
+    display: block;
+    animation: shown 0.5s ease-in-out;
+}
+.filtered-items > a.hidden
+{
+    display: none;
+}
+
+@keyframes shown 
+{
+    0%
+    {
+        transform: scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+/* filtered-items */
+
+
+/* contact */
+#contact i
+{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed;
+    line-height: 50px;
+}
+/* contact */
+
+/* footer */
+.footer-links li
+{
+    position: relative;
+}
+.footer-links li::before
+{
+    position: absolute;
+    content: '';
+    border: 5px solid transparent;
+    border-left-color: var(--main-color);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* footer */
+
+
+/* modal */
+#exampleModal object
+{
+    height: 80vh;
+}
+
+.modal.fade .modal-dialog
+{
+    transition: 0.5s transform ease-out;
+    transform: scale(0);
+}
+
+.modal.show .modal-dialog
+{
+    transform: none;
+}
